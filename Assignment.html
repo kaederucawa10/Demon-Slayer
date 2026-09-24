@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Demon Slayer Styles and Demon Arts</title>
+  <style>
+    body {
+      font-family: cursive, sans-serif;
+      background-image: url('https://www.baltana.com/files/wallpapers-30/Demon-Slayer-Kimetsu-No-Yaiba-Wallpaper-HD-108273.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      margin: 0;
+      text-align: center;
+      padding: 50px;
+      color: white;
+    }
+
+    .style-container, .demon-container {
+      max-width: 600px;
+      margin: 0 auto 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .style-box {
+      border: 2px solid orange; 
+      padding: 14px 20px;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 1.5em;
+      width: 100%;
+      box-sizing: border-box;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+      background-color: rgba(255, 165, 0, 0.2);
+      transition: background-color 0.2s;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .style-box:hover {
+      background-color: rgba(255, 165, 0, 0.4);
+    }
+
+    .water { background-color: #4a90e2; }
+    .thunder { background-color: #f1c40f; color: black; }
+    .beast { background-color: #2ecc71; }
+    .wind { background-color: #7f8c8d; }
+    .sun { background-color: #e67e22; }
+    .mist { background-color: #95a5a6; }
+    .stone { background-color: #34495e; }
+    .sound { background-color: #9b59b6; }
+
+    .Biokineses { background-color: #c0392b; }
+    .dream { background-color: #8e44ad; }
+    .blood { background-color: #e74c3c; }
+    .sash { background-color: #d35400; }
+    .infinity { background-color: #2c3e50; }
+
+    .character-display {
+      display: none;
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 20px;
+    }
+
+    .character-display:target {
+      display: block;
+    }
+
+    .character-name {
+      font-size: 2.2em;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    .character-image {
+      width: 100%;
+      max-width: 900px;
+      height: auto;
+      border: 6px solid white;
+      border-radius: 16px;
+      margin: 30px auto;
+      display: block;
+      box-shadow: 0 0 30px rgba(0,0,0,0.8);
+    }
+
+    .character-description {
+      margin-top: 10px;
+      font-size: 1.4em;
+      text-shadow: 5px 5px 5px black;
+    }
+  </style>
+</head>
+<body>
+
+    <h1><span style="color: orange;">ASSIGNMENT</span></h1>
+  <p style="color: rgb(0, 0, 0); font-size: 1.8em;"><strong><span style = color:#4a90e2>B</span>REATHING <span style = color:#2ecc71>S</span>TYLES:</span></strong></p>
+
+  <div class="style-container">
+    <a href="#water" class="style-box water">Water</a>
+    <a href="#thunder" class="style-box thunder">Thunder</a>
+    <a href="#beast" class="style-box beast">Beast</a>
+    <a href="#wind" class="style-box wind">Wind</a>
+    <a href="#sun" class="style-box sun">Sun (Hinokami)</a>
+    <a href="#mist" class="style-box mist">Mist</a>
+    <a href="#stone" class="style-box stone">Stone</a>
+    <a href="#sound" class="style-box sound">Sound</a>
+  </div>
+
+  <p style="color: red; font-size: 1.8em;"><strong><span>BLOOD DEMON ART</span></strong></p>
+  <div class="demon-container">
+    <a href="#biokinesis" class="style-box Biokineses">Biokinesis</a>
+    <a href="#dream" class="style-box dream">Dream Manipulation</a>
+    <a href="#blood" class="style-box blood">Destructive Death</a>
+    <a href="#sash" class="style-box sash">Sash Manipulation</a>
+    <a href="#infinity" class="style-box infinity">Infinity Castle</a>
+  </div>
+
+
+  <div id="water" class="character-display">
+    <div class="character-name">Water Breathing</div>
+    <img src="https://images.steamusercontent.com/ugc/1820022611071402583/C4CC4C60744402BD06725BC1C150A85E246FE323/" alt="Water Breathing" class="character-image">
+    <div class="character-description">Water Breathing is a Breathing Style that mimics water, specifically the flow, flexibility and adaptability of the liquid and replicates it with the user's movements, techniques and abilities. </div>
+  </div>
+
+  <div id="thunder" class="character-display">
+    <div class="character-name">Thunder Breathing</div>
+    <img src="https://images.steamusercontent.com/ugc/1656726404781300894/F2A31EEBAFA663CB045C55DA0BAB2EC2950877E2/" alt="Thunder Breathing" class="character-image">
+    <div class="character-description">Thunder Breathing is a Breathing Style that mimics lightning, specifically swift strikes and movements akin to lightning ripping through the sky, and replicates it with the user's movements, techniques and abilities</div>
+  </div>
+
+  <div id="beast" class="character-display">
+    <div class="character-name">Beast Breathing</div>
+    <img src="https://gifdb.com/images/high/demon-slayer-fighting-inosuke-beast-breathing-tdbkektcvl6b8rby.gif" alt="Beast Breathing" class="character-image">
+    <div class="character-description">Beast Breathing is a Breathing Style that mimics beasts/wild animals, specifically their unpredictable, ferocious and wild nature, including movements, attacks and senses, and replicates it with the user's movements, techniques and abilities. </div>
+  </div>
+
+  <div id="wind" class="character-display">
+    <div class="character-name">Wind Breathing</div>
+    <img src="https://i.pinimg.com/originals/cf/93/d2/cf93d2fac16476efe7fefcfdfa2c08af.gif" alt="Wind Breathing" class="character-image">
+    <div class="character-description">Wind Breathing is a Breathing Style that mimics wind, specifically powerful torrents of air and whirlwinds, and replicates it with the user's movements, techniques and abilities.</div>
+  </div>
+
+  <div id="sun" class="character-display">
+    <div class="character-name">Sun Breathing (Hinokami Kagura)</div>
+    <img src="https://i.makeagif.com/media/5-08-2023/CPQgAA.gif" alt="Sun Breathing" class="character-image">
+    <div class="character-description">Both the Hinokami Kagura and Sun Breathing are Breathing Styles that mimic the sun and replicate it with the user's movements, techniques, and abilities. All techniques and forms are extremely varied and have no set pattern,
+         making it the most versatile and effective against demons. Users of Sun Breathing visualize themselves seemingly manipulating solar flames when unleashing its techniques.</div>
+  </div>
+
+  <div id="mist" class="character-display">
+    <div class="character-name">Mist Breathing</div>
+    <img src="https://i.makeagif.com/media/5-29-2023/eXgbgF.gif" alt="Mist Breathing" class="character-image">
+    <div class="character-description">Mist Breathing is a Breathing Style that mimics mist, specifically the obscurity of mist, and replicates it with the user's movements, techniques and abilities.</div>
+  </div>
+
+  <div id="stone" class="character-display">
+    <div class="character-name">Stone Breathing</div>
+    <img src="https://i.makeagif.com/media/7-18-2024/z5YSUC.gif" alt="Stone Breathing" class="character-image">
+    <div class="character-description">Stone Breathing is a Breathing Style that mimics earth and stone and replicates it with the user's movements, techniques and abilities.</div>
+  </div>
+
+  <div id="sound" class="character-display">
+    <div class="character-name">Sound Breathing</div>
+    <img src="https://pa1.aminoapps.com/8227/b7f77fd88e3c6864a6b57c0b877c3e8585dcb954r1-600-330_hq.gif" alt="Sound Breathing" class="character-image">
+    <div class="character-description">Sound Breathing is a Breathing Style that mimics sound, specifically its disorientating loudness, and replicates it with the user's movements, techniques and abilities.</div>
+  </div>
+
+  <div id="biokinesis" class="character-display">
+    <div class="character-name">Muzan Kibutsuji</div>
+    <img src="https://static.wikia.nocookie.net/project-slayers/images/8/82/Biokinesis_Demonstration.gif/revision/latest?cb=20240702015705" alt="Muzan" class="character-image">
+    <div class="character-description">Demon King - Biokinesis and shapeshifting abilities</div>
+  </div>
+
+  <div id="dream" class="character-display">
+    <div class="character-name">Emu (Lower Moon 1)</div>
+    <img src="https://static.wikia.nocookie.net/kimetsu-no-yaiba-fan/images/5/54/Enmu_casts_Whispers_of_Forced_Unconscious_Hypnosis_against_Tanjiro.gif/revision/latest?cb=20230706165325" alt="Emu" class="character-image">
+    <div class="character-description">Lower Moon One - Dream manipulation and sleep control</div>
+  </div>
+
+  <div id="blood" class="character-display">
+    <div class="character-name">Akaza (Upper Moon Three)</div>
+    <img src="https://i.pinimg.com/originals/3c/e2/48/3ce2487506f08547933ee3a24e8199c8.gif" alt="Akaza" class="character-image">
+    <div class="character-description">Upper Moon Three - Blood manipulation and martial arts</div>
+  </div>
+
+  <div id="sash" class="character-display">
+    <div class="character-name">Daki (Upper Moon Six)</div>
+    <img src="https://i.pinimg.com/originals/4d/82/f7/4d82f7c6f51e28ab3f9583d5327ab974.gif" alt="Daki" class="character-image">
+    <div class="character-description">Upper Moon Six - Sash manipulation and beauty</div>
+  </div>
+
+  <div id="infinity" class="character-display">
+    <div class="character-name">Nakime (Upper Four)</div>
+    <img src="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/5/51/Nakime%27s_Blood_Demon_Art.gif/revision/latest?cb=20200209165933" alt="Nakime" class="character-image">
+    <div class="character-description">Upper Moon Four - Infinity Castle control</div>
+  </div>
+
+  </body>
+</html>
